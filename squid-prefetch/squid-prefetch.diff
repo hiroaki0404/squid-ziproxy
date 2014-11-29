@@ -1,0 +1,12 @@
+--- squid-prefetch.dist	2014-11-29 02:28:46.496821446 +0000
++++ squid-prefetch	2014-11-29 02:33:15.885697343 +0000
+@@ -13,7 +13,7 @@
+ 
+ 
+ @ConfFiles		= qw(./squid-prefetch.conf $ENV{HOME}/.squid-prefetch /etc/squid-prefetch.conf);
+-$FetchPattern	= 'http://.*(\.(html?|te?xt)|/[^\.]*)';
++$FetchPattern	= 'http://.*([pP][nN][gG]|[jJ][pP][eE]?[gG]|[gG][iI][fF])';
+ 
+ $AccessFile		= "";
+ $LastAccess		= 0;
+
