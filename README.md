@@ -1,6 +1,6 @@
 squid-ziproxy
 ===
-SquidとZiproxyを組み合わせた、圧縮Proxyです。スマホのproxyとして使うことを想定しています。
+[Squid](http://www.squid-cache.org/ "Squid")と[Ziproxy](http://ziproxy.sourceforge.net/ "Ziproxy")を組み合わせた、圧縮Proxyです。スマホのproxyとして使うことを想定しています。
 
 Build
 -
